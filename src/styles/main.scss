@@ -1,7 +1,19 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "content";
 
-body {
-  background: $c-gray;
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body,
+li,
+ul,
+div,
+p {
+  margin: 0;
+  padding: 0;
 }
